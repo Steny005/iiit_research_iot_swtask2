@@ -4,26 +4,30 @@ A full-stack IoT data visualization platform built with **FastAPI** (backend) an
 It visualizes real or stored IoT data for multiple verticals — **Air Quality, Solar Light, and Water Flow** — using dynamic charts.
 
 ## Project Structure
+## 📁 Project Structure Tree
+
 TASK2_SOFTWAREPROJECT/
 ├── backend/
-│ ├── iot_dataset.csv
-│ ├── iot_dataset_mapping.csv
-│ ├── loaddata.py
-│ ├── main.py
-│ └── pycache/
+│   ├── iot_dataset.csv
+│   ├── iot_dataset_mapping.csv
+│   ├── loaddata.py
+│   ├── main.py
+│   └── __pycache__/
 │
 ├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── assets/
-│ │ ├── components/chartview.jsx
-│ │ ├── App.jsx
-│ │ ├── config.js
-│ │ └── main.jsx
-│ ├── package.json
-│ └── vite.config.js
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   └── chartview.jsx
+│   │   ├── App.jsx
+│   │   ├── config.js
+│   │   └── main.jsx
+│   ├── package.json
+│   └── vite.config.js
 │
 └── readme.md
+
 
 
 ## Overview
